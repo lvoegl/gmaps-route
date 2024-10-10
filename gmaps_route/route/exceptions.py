@@ -1,0 +1,2 @@
+class RouteException(Exception):
+    pass

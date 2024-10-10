@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "gmaps-route"
+version = "0.1.0"
+description = "Easily create Google Maps routes using Python"
+authors = ["Lukas Voegl <lukas@voegl.org>"]
+readme = "README.md"
+packages = [{include = "gmaps_route"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+
+[tool.poetry.scripts]
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+isort = "^5.13.2"
+mypy = "^1.11.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+combine_as_imports = true
+lines_between_types = 1
+lines_after_imports = 2
+
+[tools.mypy]
+namespace_packages = true
+explicit_package_bases = true
+check_untyped_defs = true
+ignore_errors = false
+strict_optional = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+warn_unused_configs = true
