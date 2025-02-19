@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "gmaps-route"
-version = "0.1.0"
+version = "0.1.1"
 description = "Easily create Google Maps routes using Python"
 authors = ["Lukas Voegl <lukas@voegl.org>"]
 readme = "README.md"
