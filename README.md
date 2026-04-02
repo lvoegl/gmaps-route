@@ -15,7 +15,7 @@ python examples/simple.py
 https://www.google.com/maps/dir/data=!4m9!4m8!1m3!2m2!1d8.6821267!2d50.1109221!1m3!2m2!1d11.5819805!2d48.1351253
 ```
 Will print the URL to a simple route from Munich (start) to Frankfurt (end).
-![Image of simple route](examples/simple.png)
+![Image of simple route](https://raw.githubusercontent.com/lvoegl/gmaps-route/main/examples/simple.png)
 
 ### Complex
 ```
@@ -26,4 +26,4 @@ Will print the URL to a route from Munich (start) to Stuttgart (intermediate) to
 It also adds subdestinations (waypoints to route-along) between destinations.
 Note that these subdestinations between destinations always have to be added to the later destination of the two.
 This route also configures the map type as 'Satellite' and transportation type as 'Car'.
-![Image of complex route](examples/large.png)
+![Image of complex route](https://raw.githubusercontent.com/lvoegl/gmaps-route/main/examples/large.png)
