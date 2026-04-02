@@ -10,7 +10,7 @@ class ABCNode(ABC):
 
     class ABCData(ABC):
 
-        __data_regex = re.compile("^(\d+)([a-z])(.+)$")
+        __data_regex = re.compile(r"^(\d+)([a-z])(.+)$")
 
         class DataType(str, Enum):
 
