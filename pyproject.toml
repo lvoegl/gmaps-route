@@ -26,7 +26,7 @@ combine_as_imports = true
 lines_between_types = 1
 lines_after_imports = 2
 
-[tools.mypy]
+[tool.mypy]
 namespace_packages = true
 explicit_package_bases = true
 check_untyped_defs = true
