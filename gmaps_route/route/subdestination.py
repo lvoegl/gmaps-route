@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from typing import Optional
+
 from gmaps_route.nodes.node import Node
 from gmaps_route.route.exceptions import RouteException
 from gmaps_route.route.node_item import ABCNodeItem
